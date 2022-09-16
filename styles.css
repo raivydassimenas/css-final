@@ -1,9 +1,15 @@
+* {
+    font-family: roboto sans-serif;
+}
+
 .first {
     background-color: #1f2937;
+    padding: 50px;;
 }
 
 footer {
-    background-color: #1f2937
+    background-color: #1f2937;
+    margin: 20px 0;
 }
 
 h1 {
@@ -15,6 +21,7 @@ h1 {
 li a {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .intro-left p {
@@ -25,4 +32,138 @@ li a {
 .logo p {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.logo img {
+    width: 20px;
+    height: auto;
+    flex: none;
+    align-self: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #ffffff;
+    border: solid #ffffff 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.four {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+
+img {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+
+.main-img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 5px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.photos p {
+    flex: 1;
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.second h2 {
+    text-align: center;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.sign-up p {
+    width: 400px;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.intro-left, .intro-right {
+    flex: 1;
 }
